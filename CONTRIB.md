@@ -2,24 +2,25 @@
 
 _Please submit a pull request here if you would like to request more data. Our team will constantly review it, and provide as much as is feasible to rigorously and consistently maintain._
 
-### deaths and Testing
+### cases and Testing
 
-1) Recovered deaths at national and state level
-2) deaths at district level
-3) deaths in cluster at state level
+1) Recovered cases at national and state level
+2) cases at district level
+3) cases in cluster at state level
 4) Testing at state level
-5) Number of deaths split by variant at country and state level
-6) Add following new fields to deaths_state - deaths_new_2dosePfizer, deaths_new_1dosePfizer, deaths_new_2doseSinovac, deaths_new_1doseSinovac,deaths_new_2doseAz, deaths_new_1doseAz, deaths_new2doseOthersA, deaths_new1doseOthersA, deaths_new1doseOthersB, deaths_new_0dose,  
-
+5) Number of cases split by variant at country and state level
+6) Add following new fields to cases_state - cases_new_2dosePfizer, cases_new_1dosePfizer, cases_new_2doseSinovac, cases_new_1doseSinovac,cases_new_2doseAz, cases_new_1doseAz, cases_new2doseOthersA, cases_new1doseOthersA, cases_new1doseOthersB, cases_new_0dose  
+7) Add following new fields to cases_state - cases_new_2dosePfizer, cases_new_1dosePfizer, cases_new_2doseSinovac, cases_new_1doseSinovac,cases_new_2doseAz, cases_new_1doseAz, cases_new2doseOthersA, cases_new1doseOthersA, cases_new1doseOthersB, cases_new_1dose, cases_new_2dose, cases_new_0dose, cases_new_1dose_above60, cases_new_2dose_above60, cases_new_0dose_above60
+  
 
 ### Healthcare
 
-1) Add following to hospital - no_of_covid_doctors, no_of_covid_nurses, no_of_new_covid_deaths, no_of_covid_doctors_new_resignations, no_of_covid_nurses_new_resignations, no_icu_beds, no_vent
+1) Add following to hospital - no_of_covid_doctors, no_of_covid_nurses, no_of_new_covid_cases, no_of_covid_doctors_new_resignations, no_of_covid_nurses_new_resignations, no_icu_beds, no_vent
 
-### Deaths
+### cases
 
-1) Granular (anonymised, individual-level) data on deaths, e.g. age, sex, nationality, comorbidities.
-2) Add following new fields to deaths_state -  deaths_new_2dosePfizer, deaths_new_1dosePfizer, deaths_new_2doseSinovac, deaths_new_1doseSinovac, deaths_new_2doseAz, deaths_new_1doseAz, deaths_new2doseOthersA, deaths_new1doseOthersA, deaths_new1doseOthersB, deaths_new_0dose,  deaths_new_unknown. (BID=brought in dead)
+1) Granular (anonymised, individual-level) data on cases, e.g. age, sex, nationality, comorbidities.
+2) Add following new fields to cases_state -  cases_new_2dosePfizer, cases_new_1dosePfizer, cases_new_2doseSinovac, cases_new_1doseSinovac, cases_new_2doseAz, cases_new_1doseAz, cases_new2doseOthersA, cases_new1doseOthersA, cases_new1doseOthersB, cases_new_0dose,  cases_new_unknown. (BID=brought in dead)
 
 
 ### Vaccination
